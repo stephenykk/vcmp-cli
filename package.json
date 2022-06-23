@@ -1,0 +1,17 @@
+{
+  "name": "vcmp-cli",
+  "version": "1.0.0",
+  "description": "快速创建npm组件开发项目",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "vcmp": "bin/vcmp.js"
+  },
+  "dependencies": {
+    "commander": "^9.3.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.2.4",
+    "ora": "^6.1.0",
+    "chalk": "^4.1.2"
+  }
+}
